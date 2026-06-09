@@ -1,5 +1,45 @@
-h1{
-    background-color:blueviolet;
-    color:wheat;
-    text-align:center;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    background-color: blueviolet;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 50%;
+    border: 3px solid blueviolet;
+    margin: 20px 0;
+}
+
+.student {
+    background-color: blue;
+    color: white;
+    width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: darkgreen;
 }
