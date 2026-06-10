@@ -2,11 +2,19 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     text-align: center;
-    margin: 0;
-    padding: 20px;
+    margin: 100px;
+    padding: 100px;
     border-radius: 20px;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3) ;
-    border: 20px blueviolet;
+    border: 2px solid black;
+    min-height: 50vh;
+    
+    justify-content:center;
+    align-items: center; 
+    width: 500px;
+
+    
+    
 }
 
 h1 {
@@ -22,21 +30,23 @@ img {
     border-radius: 20%;
     border: 3px solid blueviolet;
     margin: 20px 0;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 
 .student {
     color: blueviolet;
     width: 300px;
+    height:250px;
     margin: 20px auto;
     padding: 15px;
     font-size: 18px;
+    text-align:center;
     
 }
 
 a {
-    display: inline-block;
+    
     margin-top: 20px;
     text-decoration: none;
     background-color: blueviolet;
@@ -48,4 +58,3 @@ a {
 a:hover {
     background-color: darkgreen;
 }
-
