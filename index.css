@@ -4,6 +4,9 @@ body {
     text-align: center;
     margin: 0;
     padding: 20px;
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3) ;
+    border: 20px blueviolet;
 }
 
 h1 {
@@ -24,22 +27,20 @@ img {
 }
 
 .student {
-    background-color: blue;
-    color: white;
+    color: blueviolet;
     width: 300px;
     margin: 20px auto;
     padding: 15px;
-    border: 2px solid black;
-    border-radius: 10px;
     font-size: 18px;
+    
 }
 
 a {
     display: inline-block;
     margin-top: 20px;
     text-decoration: none;
+    background-color: blueviolet;
     color: white;
-    background-color: green;
     padding: 10px 15px;
     border-radius: 5px;
 }
@@ -47,3 +48,4 @@ a {
 a:hover {
     background-color: darkgreen;
 }
+
