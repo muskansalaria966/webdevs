@@ -1,0 +1,231 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    background:black;
+    color:white;
+}
+
+.navbar{
+    height:80px;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 8%;
+    position:absolute;
+    z-index:10;
+}
+
+
+.logo{
+    width:150px;
+}
+
+.signin{
+    background:#e50914;
+    color:white;
+    /* border:none; */
+    padding:10px 22px;
+    border-radius:5px;
+    /* cursor:pointer; */
+    transition:.3s;
+}
+
+.signin:hover{
+    background:#b20710;
+}
+
+.hero{
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+position:relative;
+background-image:url("Netflix India – Watch Shows Online, Watch Movies Online/imgi_4_IN-en-20260608-TRIFECTA-perspective_d70af879-e407-4aee-8615-4c82210065d5_medium.jpg");
+background-size:cover;
+background-position: top;    
+}
+
+.overlay{
+position:absolute;
+height:100%;
+width:100%;
+background:rgba(0,0,0,.65);
+}
+
+.hero-content{
+position:relative;
+text-align:center;
+width:70%;
+}
+
+.hero h1{
+font-size:55px;
+margin-bottom:20px;
+}
+
+.hero h3{
+font-size:25px;
+margin-bottom:20px;
+}
+
+.hero p{
+margin-bottom:20px;
+}
+
+.email-box{
+display:flex;
+justify-content:center;
+gap:10px;
+}
+
+.email-box input{
+width:400px;
+padding:18px;
+border-radius:5px;
+border:none;
+}
+
+.email-box button{
+background:#e50914;
+color:white;
+border:none;
+padding:18px 30px;
+font-size:18px;
+border-radius:5px;
+cursor:pointer;
+transition:.3s;
+}
+
+.email-box button:hover{
+background:#b20710;
+}
+
+.movie-row{
+    display:flex;
+    justify-content: space-between;
+    margin:20px;
+}
+
+.features{
+padding:20px 8%;
+display:flex;
+flex-direction:row;
+gap:20px;
+}
+
+.feature-card{
+justify-content:right; 
+padding:20px;
+background-color: #303030;
+border-radius:15px;
+gap:20px;
+} 
+
+.feature-card img{
+width:100px;
+} 
+
+.feature-card h2{
+font-size:30px;
+margin-bottom:15px;
+margin-top:15px;
+
+} 
+
+.feature-card p{
+font-size:20px;
+} 
+
+.faq{
+padding:70px 10%;
+}
+
+.faq h1{
+text-align:left;
+margin-bottom:40px;
+}
+
+.question{
+background:#303030;
+margin:15px 0;
+padding:25px;
+display:flex;
+justify-content:space-between;
+font-size:22px;
+border-radius:5px;
+transition:.3s;
+}
+
+.question:hover{
+background:#454545;
+}
+
+footer{
+padding:50px ;
+background:#111;
+}
+
+.footer-columns{
+display:flex;
+flex-wrap:wrap;
+gap:50px;
+color:white;
+justify-content:space-between;
+align-items: normal;
+margin:100px;
+padding:20px;
+}
+
+.language-selector{
+    margin:10px;
+    height:10px;
+    padding:20px;
+
+
+}
+
+/* Mobile Responsive */
+@media(max-width:768px){
+.hero h1{
+font-size:35px;
+}
+
+.hero-content{
+width:90%;
+}
+
+.email-box{
+flex-direction:column;
+}
+
+.email-box input{
+width:100%;
+}
+
+.feature-card{
+flex-direction:column;
+text-align:center;
+}
+
+
+.feature-card img{
+width:250px;
+margin-bottom:20px;
+}
+
+.navbar{
+padding:0 20px;
+}
+
+
+.logo{
+width:120px;
+}
+}

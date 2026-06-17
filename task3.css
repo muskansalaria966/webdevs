@@ -1,0 +1,120 @@
+body{
+    background-color:white;
+    color:blueviolet;
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color:bisque;
+    color:black;
+    display:flex;
+    justify-content:right;
+    margin:0px; 
+          
+}
+
+ul{  
+    
+    display:flex;
+    list-style:none;
+    gap:20px;
+    padding-top: 6px;
+    padding-right: 20px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.hero{
+      margin:0px;
+
+}
+p{
+    background-color:bisque;
+    color:blueviolet;
+    font-size:20px;
+    text-align:center;
+    margin:4px;
+    padding:100px;
+}
+
+.features{   
+    background-color:white;
+    display:flex;
+    height:300px;
+    gap:10px;
+    text-align:centre;
+}
+
+.courses{   
+    background-color:pink;
+
+    height:300px;
+    width:400px;
+    gap:6px;
+    
+    
+}
+
+.staff{  
+    background-color:pink;
+
+    height:300px;
+    width:400px; 
+    gap:6px;
+    
+    
+}
+
+.facilities{ 
+    background-color:pink;
+    height:300px;
+    width:400px;
+       
+}
+
+/*h2{
+    background-color:bisque;
+    display:flex;
+    justify-content:space-around;
+    height:300px;
+    width:300px;
+    gap:2px;   
+}*/
+
+.statistics{
+    margin:0px;
+    height:300px;
+    width:500px;
+    display:flex;
+}
+
+label{
+    background-color:bisque;
+    margin:20px;
+    padding:100px;
+}
+
+.foot{
+    margin:20px;
+    display:flex;
+    justify-content:center;
+}
+
+.foot ul{
+    margin:40px;
+    font-size:18px;
+    display:flex;
+    justify-content:center;
+    padding:50px;
+}
+
+
+
+
+

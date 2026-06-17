@@ -1,0 +1,45 @@
+body{
+    
+    
+    height:100vh;
+    
+    
+    
+    
+}
+
+
+h1{
+    
+    color:black;
+    text-align:center;
+
+}
+
+nav{
+    
+    color:black;
+    display:flex;
+    justify-content: right;
+    
+
+}
+
+ul{
+    color:black;
+
+    display:flex;
+    font-size: 18px;
+
+
+}
+
+li{
+    color:black;
+    margin:30px;
+    font-size: 18px;
+
+}
+
+
+
