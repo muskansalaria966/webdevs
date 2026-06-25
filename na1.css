@@ -25,6 +25,28 @@ nav{
 
 }
 
+.main{
+    display:flex;
+    justify-content:left;
+    align-items: left;
+    
+
+}
+
+img{
+   width:150px;
+   height:150px;
+    
+}
+
+.n{
+    color:black;
+
+    display:flex;
+    font-size: 18px;
+
+}
+
 ul{
     color:black;
 
@@ -33,7 +55,7 @@ ul{
 
 
 }
-
+ 
 li{
     color:black;
     margin:30px;

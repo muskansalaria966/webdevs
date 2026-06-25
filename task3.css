@@ -1,10 +1,16 @@
+*{
+    border-radius:20px;
+    
+    
+}
 body{
     background-color:white;
-    color:blueviolet;
+    color:black;
     font-family:Arial, Helvetica, sans-serif;
     margin:0px;
     padding:0px;
     box-sizing: border-box;
+    
 }
 
 nav{
@@ -32,19 +38,35 @@ a{
 
 .hero{
       margin:0px;
+      display:flex;
+    justify-content:right;
+    width:200px;
+    margin:20px;
+    padding:100px;
+    gap:20px;
+
+}
+img{
+    display:flex;
+    justify-content:right;
+    width:500px;
+    margin:20px;
+    padding:100px;
+
+
 
 }
 p{
     background-color:bisque;
-    color:blueviolet;
-    font-size:20px;
-    text-align:center;
-    margin:4px;
+    display:flex;
+    justify-content:left;
+    margin:20px;
     padding:100px;
+    width:400px;
 }
 
 .features{   
-    background-color:white;
+    /* background-color:white; */
     display:flex;
     height:300px;
     gap:10px;
@@ -52,7 +74,7 @@ p{
 }
 
 .courses{   
-    background-color:pink;
+    background-color:bisque;
 
     height:300px;
     width:400px;
@@ -62,7 +84,7 @@ p{
 }
 
 .staff{  
-    background-color:pink;
+    background-color:bisque; 
 
     height:300px;
     width:400px; 
@@ -72,7 +94,7 @@ p{
 }
 
 .facilities{ 
-    background-color:pink;
+    background-color:bisque;
     height:300px;
     width:400px;
        
