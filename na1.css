@@ -1,66 +1,51 @@
-body{
-    
-    
-    height:100vh;
-    
-    
-    
-    
+body{  
+    height:100vh;   
 }
 
-
-h1{
-    
+h1{ 
     color:black;
     text-align:center;
-
 }
 
 nav{
-    
     color:black;
     display:flex;
-    justify-content: right;
-    
+    justify-content: left;
+    gap:50px;
 
 }
 
 .main{
     display:flex;
-    justify-content:left;
-    align-items: left;
-    
-
+    /* justify-content:left;
+    align-items: left; */
 }
 
 img{
-   width:150px;
-   height:150px;
-    
+   width:300px;
+   height:100px;
+   justify-content:left;
+   align-items:left;   
 }
 
 .n{
     color:black;
-
     display:flex;
+    
     font-size: 18px;
-
 }
 
 ul{
     color:black;
-
     display:flex;
     font-size: 18px;
-
-
 }
  
 li{
     color:black;
     margin:30px;
     font-size: 18px;
-
+    
 }
 
 
